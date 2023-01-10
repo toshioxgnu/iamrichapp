@@ -17,16 +17,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="I Am Rich" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCR-SD-VMI">
-                                <rect key="frame" x="121" y="125" width="172" height="46"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon-1024" translatesAutoresizingMaskIntoConstraints="NO" id="lpr-FI-JQq">
                                 <rect key="frame" x="72" y="311.5" width="270" height="273"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Am Rich" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCR-SD-VMI">
+                                <rect key="frame" x="121" y="108" width="172" height="46"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jc2-1r-mLx"/>
                         <color key="backgroundColor" red="0.2048765719" green="0.28483945129999999" blue="0.36808544399999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -34,6 +34,7 @@
                         <constraints>
                             <constraint firstItem="jc2-1r-mLx" firstAttribute="bottom" secondItem="lpr-FI-JQq" secondAttribute="bottom" constant="277.5" id="9eq-Sz-Qcu"/>
                             <constraint firstItem="lpr-FI-JQq" firstAttribute="leading" secondItem="jc2-1r-mLx" secondAttribute="leading" constant="72" id="Bdh-32-263"/>
+                            <constraint firstItem="QCR-SD-VMI" firstAttribute="top" secondItem="jc2-1r-mLx" secondAttribute="top" constant="60" id="XSK-Wd-6fZ"/>
                             <constraint firstItem="lpr-FI-JQq" firstAttribute="centerY" secondItem="IY4-ws-cEB" secondAttribute="centerY" id="a1E-HF-D1d"/>
                             <constraint firstItem="lpr-FI-JQq" firstAttribute="centerX" secondItem="IY4-ws-cEB" secondAttribute="centerX" id="d9h-pa-ZEY"/>
                             <constraint firstItem="lpr-FI-JQq" firstAttribute="centerX" secondItem="QCR-SD-VMI" secondAttribute="centerX" id="qxz-Fn-ppA"/>
